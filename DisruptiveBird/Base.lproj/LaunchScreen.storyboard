@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="DisruptiveBird" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLa-BG-R3x">
+                                <rect key="frame" x="106" y="118" width="161" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="161" id="4Mv-VK-d8R"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="K7u-AE-da0"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="RDX-Y9-H4A"/>
+                                    <constraint firstAttribute="width" constant="161" id="d1r-SG-mwI"/>
+                                    <constraint firstAttribute="height" constant="21" id="di9-54-giF"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="161" id="eYh-sh-9X0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Copyright © 2016 DisruptiveInno.mobi. All rights reserved. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMO-Pi-2jd">
+                                <rect key="frame" x="20" y="544" width="329" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="6gk-rj-eMn"/>
+                                    <constraint firstAttribute="width" constant="355" id="BVg-BD-qDl"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="329" id="I2n-fh-aPt"/>
+                                    <constraint firstAttribute="height" constant="21" id="Q0L-ds-G7W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="disruptiveinno.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-aP-SaS">
+                                <rect key="frame" x="67" y="236" width="240" height="196"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="196" id="CyP-RD-ggR"/>
+                                    <constraint firstAttribute="height" constant="128" id="F7R-cc-Kvm"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="196" id="HYJ-eW-yYZ"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="240" id="Ih4-A3-nNO"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="240" id="IhC-I8-a73"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="Tgq-Da-67l"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="196" id="VAG-qv-6Zt"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="240" id="VJi-LI-VEP"/>
+                                    <constraint firstAttribute="width" constant="240" id="ilf-4l-Els"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wah-aP-SaS" firstAttribute="top" secondItem="BLa-BG-R3x" secondAttribute="bottom" constant="113" id="78Z-nX-NYo"/>
+                            <constraint firstItem="RMO-Pi-2jd" firstAttribute="top" secondItem="Wah-aP-SaS" secondAttribute="bottom" constant="150" id="7vr-j7-E6B"/>
+                            <constraint firstItem="Wah-aP-SaS" firstAttribute="top" secondItem="BLa-BG-R3x" secondAttribute="bottom" constant="79" id="9lW-KT-cIh"/>
+                            <constraint firstItem="BLa-BG-R3x" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AFz-Ax-hQ4"/>
+                            <constraint firstItem="Wah-aP-SaS" firstAttribute="top" secondItem="BLa-BG-R3x" secondAttribute="bottom" constant="64" id="O3E-eC-LWr"/>
+                            <constraint firstItem="Wah-aP-SaS" firstAttribute="top" secondItem="BLa-BG-R3x" secondAttribute="bottom" constant="113" id="XXJ-c4-jv3"/>
+                            <constraint firstItem="BLa-BG-R3x" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="26" id="ZDt-X8-g0y"/>
+                            <constraint firstItem="BLa-BG-R3x" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="98" id="aQg-wH-KQp"/>
+                            <constraint firstItem="Wah-aP-SaS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pWV-RF-zyQ"/>
+                            <constraint firstItem="BLa-BG-R3x" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="98" id="qZN-jf-Qdi"/>
+                            <constraint firstItem="RMO-Pi-2jd" firstAttribute="top" secondItem="Wah-aP-SaS" secondAttribute="bottom" constant="104" id="qss-DU-IFh"/>
+                            <constraint firstItem="RMO-Pi-2jd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uqE-xi-rYC"/>
+                            <constraint firstItem="Wah-aP-SaS" firstAttribute="top" secondItem="BLa-BG-R3x" secondAttribute="bottom" constant="113" id="wHy-Uq-MO0"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="disruptiveinno.jpg" width="741" height="409"/>
+    </resources>
+</document>
